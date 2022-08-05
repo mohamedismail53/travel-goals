@@ -1,0 +1,49 @@
+#hero {
+    background-image: url("/images/places/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+#hero-content {
+    background-color: rgba(51, 47, 47, 0.8);
+    width: 900px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgb(68, 67, 67);
+    border-radius: 8px;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+#hero-content p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px auto 10px auto;
+    color: white;
+    text-transform: uppercase;
+}
+
+#hero-content a {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    margin: 20px auto 0 auto;
+    width: 200px;
+    background-color: rgb(255, 251, 0);
+}
