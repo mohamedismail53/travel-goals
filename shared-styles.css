@@ -9,6 +9,11 @@ ul {
     display: flex;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
 ul li {
     margin: 20px;
 }
@@ -34,12 +39,19 @@ header {
     font-family: 'Oleo Script', sans-serif;
     color: rgb(245, 243, 160);
     text-decoration: none;
+    text-transform: uppercase;
     text-shadow: 1px 2px 4px rgb(0, 0, 0);
     font-size: 50px;
 }
 
+#logo-reference:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 nav a {
     text-decoration: none;
+    font-size: 24px;
     color: rgb(255, 251, 0);
 }
 
