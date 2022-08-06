@@ -11,7 +11,7 @@
 - CSS
 
 ## Getting Started
-> This is the list of needed instructions to set up the project locally on your machine, to get a local copy up and running follow these instructuins.
+> The instructions needed to set up the project locally on your machine, to get a local copy of the project does the following instructions.
 
 ### Installation
 
