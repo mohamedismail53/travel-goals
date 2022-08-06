@@ -39,5 +39,6 @@ $ http://localhost:5500/
 ## Screenshots
 
 <div align="center" width="500px">
-
+  <img src="https://github.com/mohamedismail53/travel-goals/blob/master/images/land-page.png" alt="landing-page">
+  <img src="https://github.com/mohamedismail53/travel-goals/blob/master/images/destinations-page.png" alt="destinations-page">
 </div>
