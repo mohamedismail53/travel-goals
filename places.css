@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+    /* padding: 40px; */
+}
+
+header {
+    position: static;
+}
+
+nav a {
+    color: rgb(183, 230, 235);
+}
+
+nav a:hover {
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
+main ul {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20px;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    bottom: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    object-fit: cover;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+main li:nth-of-type(3) {
+    grid-column: 1 / span 2;
+}
+
+main ul img {
+    width: 300px;
+    height: 280px;
+}
+
+footer {
+    position: static;
+    margin: 20px 0 0 0;
+}
+
+#logo-reference a {
+    color: rgb(183, 230, 235);
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.explore {
+    text-align: right;
+}
+
+.explore a {
+    text-decoration: none;
+    color: rgb(22, 211, 228);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.explore a:hover {
+    background-color: rgb(235, 253, 255);
+}
+
+#london {
+    height: 334px;
+}

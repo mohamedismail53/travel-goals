@@ -41,7 +41,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 1px 2px 4px rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #logo-reference:hover {
@@ -61,4 +61,33 @@ nav a:hover {
     padding: 8px 16px;
     border-radius: 6px;
     box-shadow: 1px 2px 4px rgb(68, 67, 67);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: 260px;
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    justify-content: center;
+    margin-top: 180px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+#insta-logo img {
+    border-radius: 20px;
+}
+
+footer img {
+    display: block;
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    margin: 24px 20px;
+    border-radius: 50px;
 }
